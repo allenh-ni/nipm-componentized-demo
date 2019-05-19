@@ -33,6 +33,8 @@
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -43,7 +45,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../_builds/Componentized Application Demo/Panels/Configure Hardware</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AD8D7C05-2975-44FA-84A7-F481AA113111}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../_builds/Componentized Application Demo/Panels/Configure Hardware</Property>
@@ -91,15 +93,15 @@
 				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path"></Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">compdemo-subpanel-confighw_2.0.0-0_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">compdemo-subpanel-confighw_2.0.0-3_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
-				<Property Name="NIPKG_releaseNotes" Type="Str">Upgraded to LabVIEW 2019.</Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str">Added ability to refresh list of supported hardware.</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
 				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">1</Property>
+				<Property Name="PKG_buildNumber" Type="Int">4</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">Subpanel - ConfigHW (Package)</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>

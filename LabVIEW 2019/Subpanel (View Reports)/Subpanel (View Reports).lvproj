@@ -79,7 +79,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1770A475-8340-4ABF-AA8E-75AB66FA7A00}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">View Reports.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../_builds/Componentized Application Demo/Panels/View Reports.lvlibp</Property>
@@ -118,7 +118,7 @@
 				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path"></Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">compdemo-subpanel-viewreports_2.0.0-0_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">compdemo-subpanel-viewreports_2.0.0-1_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Moved location of Refresh button.</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -126,7 +126,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">1</Property>
+				<Property Name="PKG_buildNumber" Type="Int">2</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">Subpanel - ViewReports (Package)</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str">Installs the "View Reports" subpanel component for the componentized application demo.</Property>
