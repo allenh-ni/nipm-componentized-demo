@@ -30,60 +30,60 @@ CompatibilityVersion: 190006
 Description: Installs the "Configure Hardware" subpanel
   Installs the "Configure Hardware" subpanel component for the componentized application demo.
 DisplayName: Componentized App (Configure Hardware subpanel)
-Filename: compdemo-subpanel-confighw_2.0.0-0_windows_all.nipkg
+Filename: compdemo-subpanel-confighw_2.0.0-3_windows_all.nipkg
 Homepage: www.nba.com
-Installed-Size: 537
-MD5sum: 7473f62c9cc447ce2b725f9db5c842e6
+Installed-Size: 669
+MD5sum: 6ed828392d41c521fbbfc1e1cfdb28f2
 Maintainer: NBA <hakeem.olajuwon@nba.com>
 Package: compdemo-subpanel-confighw
 Plugin: file
 Priority: standard
 ReleaseNotes: 
-  Upgraded to LabVIEW 2019.
+  Added ability to refresh list of supported hardware.
 Section: Add-Ons
-Size: 355124
+Size: 432264
 UserVisible: yes
-Version: 2.0.0-0
+Version: 2.0.0-3
 
 Architecture: windows_all
 CompatibilityVersion: 190006
 Description: Installs the "Run Sequence" subpanel
   Installs the "Run Sequence" subpanel component for the componentized application demo.
 DisplayName: Componentized App (Run Sequence subpanel)
-Filename: compdemo-subpanel-runsequence_2.0.0-0_windows_all.nipkg
+Filename: compdemo-subpanel-runsequence_2.0.0-2_windows_all.nipkg
 Homepage: www.nba.com
-Installed-Size: 278
-MD5sum: eb6f2258935b2b3a2433401e99f3daf0
+Installed-Size: 279
+MD5sum: 923d91624a1702f35c29f5451b579354
 Maintainer: NBA <lebron.james@nba.com>
 Package: compdemo-subpanel-runsequence
 Plugin: file
 Priority: standard
 ReleaseNotes: 
-  Upgraded to LabVIEW 2019.
+  Added ability to refresh list of available sequences.
 Section: Add-Ons
-Size: 283300
+Size: 284264
 UserVisible: yes
-Version: 2.0.0-0
+Version: 2.0.0-2
 
 Architecture: windows_all
 CompatibilityVersion: 190006
 Description: Installs the "View Reports" subpanel
   Installs the "View Reports" subpanel component for the componentized application demo.
 DisplayName: Componentized App (View Reports subpanel)
-Filename: compdemo-subpanel-viewreports_2.0.0-0_windows_all.nipkg
+Filename: compdemo-subpanel-viewreports_2.0.0-1_windows_all.nipkg
 Homepage: www.nba.com
 Installed-Size: 263
-MD5sum: 2f16f93e5083669156f36141e1325761
+MD5sum: 658e26cac1680c60ae387b39f65a0536
 Maintainer: NBA <kobe.bryant@nba.com>
 Package: compdemo-subpanel-viewreports
 Plugin: file
 Priority: standard
 ReleaseNotes: 
-  Upgraded to LabVIEW 2019.
+  Moved location of Refresh button.
 Section: Add-Ons
-Size: 268514
+Size: 268474
 UserVisible: yes
-Version: 2.0.0-0
+Version: 2.0.0-1
 
 Architecture: windows_all
 CompatibilityVersion: 190006

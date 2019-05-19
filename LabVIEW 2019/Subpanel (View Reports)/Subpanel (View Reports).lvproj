@@ -120,7 +120,7 @@
 				<Property Name="NIPKG_installerDestination" Type="Path"></Property>
 				<Property Name="NIPKG_lastBuiltPackage" Type="Str">compdemo-subpanel-viewreports_2.0.0-0_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
-				<Property Name="NIPKG_releaseNotes" Type="Str">Upgraded to LabVIEW 2019.</Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str">Moved location of Refresh button.</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
 				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
