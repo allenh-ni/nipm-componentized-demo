@@ -1,0 +1,440 @@
+﻿Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-subpanel-confighw (>= 2.0.0-0), compdemo-subpanel-runsequence (>= 2.0.0-0), compdemo-subpanel-viewreports (>= 2.0.0-0), ni-labview-2019-runtime-engine-x86
+Description: Installs the main EXE
+  Installs the main EXE for the componentized application demo.
+DisplayName: Componentized App (Main)
+Filename: compdemo-main_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 723
+MD5sum: ab33b54f53841a1728f1efd89193868e
+Maintainer: NBA <michael.jordan@nba.com>
+Package: compdemo-main
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded to LV 2019.
+ .
+  Display in NIPM when filtered by products.
+ .
+  Display in the runtime deployment packages list.
+Section: Application Software
+Size: 648128
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+VisibleForRuntimeDeployment: yes
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Description: Installs the "Configure Hardware" subpanel
+  Installs the "Configure Hardware" subpanel component for the componentized application demo.
+DisplayName: Componentized App (Configure Hardware subpanel)
+Filename: compdemo-subpanel-confighw_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 537
+MD5sum: 7473f62c9cc447ce2b725f9db5c842e6
+Maintainer: NBA <hakeem.olajuwon@nba.com>
+Package: compdemo-subpanel-confighw
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded to LabVIEW 2019.
+Section: Add-Ons
+Size: 355124
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Description: Installs the "Run Sequence" subpanel
+  Installs the "Run Sequence" subpanel component for the componentized application demo.
+DisplayName: Componentized App (Run Sequence subpanel)
+Filename: compdemo-subpanel-runsequence_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 278
+MD5sum: eb6f2258935b2b3a2433401e99f3daf0
+Maintainer: NBA <lebron.james@nba.com>
+Package: compdemo-subpanel-runsequence
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded to LabVIEW 2019.
+Section: Add-Ons
+Size: 283300
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Description: Installs the "View Reports" subpanel
+  Installs the "View Reports" subpanel component for the componentized application demo.
+DisplayName: Componentized App (View Reports subpanel)
+Filename: compdemo-subpanel-viewreports_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 263
+MD5sum: 2f16f93e5083669156f36141e1325761
+Maintainer: NBA <kobe.bryant@nba.com>
+Package: compdemo-subpanel-viewreports
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded to LabVIEW 2019.
+Section: Add-Ons
+Size: 268514
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0)
+Description: Installs the necessary files and packages to test DUT A001
+  Installs the necessary files and packages to test DUT A001
+DisplayName: DUT A001
+Filename: dut-a001_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 1
+MD5sum: 235f12b6beac010542013b6add2c4ef0
+Maintainer: NBA <charles.barkley@nba.com>
+Package: dut-a001
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to compdemo-main v2.0.0-0.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 930
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0)
+Description: Installs the necessary files and packages to test DUT A002
+  Installs the necessary files and packages to test DUT A002
+DisplayName: DUT A002
+Filename: dut-a002_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 1
+MD5sum: f6aea874114e996068f88604315a8ea5
+Maintainer: NBA <charles.barkley@nba.com>
+Package: dut-a002
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to compdemo-main v2.0.0-0.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 936
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0)
+Description: Installs the necessary files and packages to test DUT A003
+  Installs the necessary files and packages to test DUT A003
+DisplayName: DUT A003
+Filename: dut-a003_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 1
+MD5sum: 5ffc83751f117de012eb0b0292bedb71
+Maintainer: NBA <charles.barkley@nba.com>
+Package: dut-a003
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to compdemo-main v2.0.0-0.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 946
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0)
+Description: Installs the necessary files and packages to test DUT B001
+  Installs the necessary files and packages to test DUT B001
+DisplayName: DUT B001
+Filename: dut-b001_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 1
+MD5sum: 93e20888c5a28b379b6bf9666b56ca93
+Maintainer: NBA <charles.barkley@nba.com>
+Package: dut-b001
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to compdemo-main v2.0.0-0.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 932
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0)
+Description: Installs the necessary files and packages to test DUT B002
+  Installs the necessary files and packages to test DUT B002
+DisplayName: DUT B002
+Filename: dut-b002_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 1
+MD5sum: 2ef191128c9ca827892252bc45c7f348
+Maintainer: NBA <charles.barkley@nba.com>
+Package: dut-b002
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to compdemo-main v2.0.0-0.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 938
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: ni-labview-2019-runtime-engine-x86, ni-visa-runtime (>= 19.0.0.49152-0+f0)
+Description: HAL plug-in for Agilent 34401a (DMM)
+  HAL plug-in for Agilent 34401a (DMM)
+DisplayName: HAL Plug-in - Agilent 34401a
+Filename: hal-plugin-agilent-34401a_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 468
+MD5sum: cd53f25c87457c9f206b14b77e6b7e8c
+Maintainer: NBA <magic.johnson@nba.com>
+Package: hal-plugin-agilent-34401a
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to NI-VISA Runtime 19.0 and LabVIEW 2019 Runtime.
+ .
+  Display in NIPM when filtered by products.
+ .
+  Display in the runtime deployment packages list.
+Section: Add-Ons
+Size: 333592
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+VisibleForRuntimeDeployment: yes
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: ni-dmm-runtime-daqmx-devices (>= 19.0.0.49152-0+f0), ni-labview-2019-runtime-engine-x86
+Description: HAL plug-in for PXI-4070 (DMM)
+  HAL plug-in for PXI-4070 (DMM)
+DisplayName: HAL Plug-in - PXI-4070
+Filename: hal-plugin-pxi-4070_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 60
+MD5sum: 2add46da8fb8454556371c8af5abab33
+Maintainer: NBA <kareem.abduljabbar@nba.com>
+Package: hal-plugin-pxi-4070
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to NI-DMM Runtime 19.0 and LabVIEW 2019 Runtime.
+ .
+  Display in NIPM when filtered by products.
+ .
+  Display in the runtime deployment packages list.
+Section: Add-Ons
+Size: 31702
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+VisibleForRuntimeDeployment: yes
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: ni-labview-2019-runtime-engine-x86, ni-scope-runtime-daqmx-devices (>= 19.0.0.49152-0+f0)
+Description: HAL plug-in for PXIe-5185 (Scope)
+  HAL plug-in for PXIe-5185 (Scope)
+DisplayName: HAL Plug-in - PXIe-5185
+Filename: hal-plugin-pxie-5185_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 22
+MD5sum: 7780164bf555caf607ff8a6c1ee289e8
+Maintainer: NBA <larry.bird@nba.com>
+Package: hal-plugin-pxie-5185
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Upgraded dependency to NI-SCOPE Runtime 19.0 and LabVIEW Runtime 19.0.
+ .
+  Display in NIPM when filtered by products.
+ .
+  Display in the runtime deployment packages list.
+Section: Add-Ons
+Size: 13726
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+VisibleForRuntimeDeployment: yes
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Description: HAL plug-in for Simulated DMM Device
+  HAL plug-in for Simulated DMM Device
+DisplayName: HAL Plug-in - Simulated DMM Device
+Enhances: ni-labview-2019-runtime-engine-x86
+Filename: hal-plugin-simulated-dmm-device_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 274
+MD5sum: 09292d5a52506650b891a0cd4d8c9b2e
+Maintainer: NBA <tim.duncan@nba.com>
+Package: hal-plugin-simulated-dmm-device
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Added dependency on LabVIEW 2019 Runtime.
+ .
+  Display in NIPM when filtered by products.
+ .
+  Display in the runtime deployment packages list.
+Section: Add-Ons
+Size: 190198
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+VisibleForRuntimeDeployment: yes
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Description: HAL plug-in for Simulated FGEN Device
+  HAL plug-in for Simulated FGEN Device
+DisplayName: HAL Plug-in - Simulated FGEN Device
+Filename: hal-plugin-simulated-fgen-device_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 24
+MD5sum: be1bc585e614efda5272b4463c3f8098
+Maintainer: NBA <shaquille.oneal@nba.com>
+Package: hal-plugin-simulated-fgen-device
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Added dependency on LabVIEW 2019 Runtime.
+ .
+  Display in NIPM when filtered by products.
+ .
+  Display in the runtime deployment packages list.
+Section: Add-Ons
+Size: 14268
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+VisibleForRuntimeDeployment: yes
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: ni-labview-2019-runtime-engine-x86
+Description: HAL plug-in for Simulated Scope Device
+  HAL plug-in for Simulated Scope Device
+DisplayName: HAL Plug-in - Simulated Scope Device
+Filename: hal-plugin-simulated-scope-device_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 22
+MD5sum: 574624237fc66cbb61da33229e4fe8f6
+Maintainer: NBA <kevin.durant@nba.com>
+Package: hal-plugin-simulated-scope-device
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Added dependency on LabVIEW 2019 Runtime.
+ .
+  Display in NIPM when filtered by products.
+ .
+  Display in the runtime deployment packages list.
+Section: Add-Ons
+Size: 12960
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+VisibleForRuntimeDeployment: yes
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0), hal-plugin-simulated-dmm-device (>= 2.0.0-0), hal-plugin-simulated-fgen-device (>= 2.0.0-0), hal-plugin-simulated-scope-device (>= 2.0.0-0)
+Description: Installs the application and hardware components for Test Station 1.
+  Installs the application and hardware components for Test Station 1.
+DisplayName: Test Station 1 (Simulated)
+Filename: test-station-1_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 0
+MD5sum: d458162cd2badb579415456424ee8338
+Maintainer: NBA <david.stern@nba.com>
+Package: test-station-1
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Depends on version 2.0 of componentized demo packages.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 866
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0), hal-plugin-pxi-4070 (>= 2.0.0-0), hal-plugin-pxie-5185 (>= 2.0.0-0), hal-plugin-simulated-fgen-device (>= 2.0.0-0)
+Description: Installs the application and hardware components for Test Station 2.
+  Installs the application and hardware components for Test Station 2.
+DisplayName: Test Station 2 (NI)
+Filename: test-station-2_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 0
+MD5sum: a65f13e16b0988ec164ccab65a1081d4
+Maintainer: NBA <david.stern@nba.com>
+Package: test-station-2
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Depends on version 2.0 of componentized demo packages.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 870
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Depends: compdemo-main (>= 2.0.0-0), hal-plugin-agilent-34401a (>= 2.0.0-0), hal-plugin-pxi-4070 (>= 2.0.0-0), hal-plugin-pxie-5185 (>= 2.0.0-0), hal-plugin-simulated-dmm-device (>= 2.0.0-0), hal-plugin-simulated-fgen-device (>= 2.0.0-0), hal-plugin-simulated-scope-device (>= 2.0.0-0)
+Description: Installs the application and hardware components for Test Station 3.
+  Installs the application and hardware components for Test Station 3.
+DisplayName: Test Station 3 (All)
+Filename: test-station-3_2.0.0-0_windows_all.nipkg
+Homepage: www.nba.com
+Installed-Size: 0
+MD5sum: 5d20dde2625cfd14293517d2e0ff8d67
+Maintainer: NBA <david.stern@nba.com>
+Package: test-station-3
+Plugin: file
+Priority: standard
+ReleaseNotes: 
+  Depends on version 2.0 of componentized demo packages.
+ .
+  Display in NIPM when filtered by products.
+Section: Application Software
+Size: 890
+StoreProduct: yes
+UserVisible: yes
+Version: 2.0.0-0
+
